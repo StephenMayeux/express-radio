@@ -12,7 +12,7 @@ $( document ).ready(function() {
 	var rangeSlider = function(){
 		slider.on('change', function(){
 			setup.year = slider.val()
-			$('#year').text(year)
+			$('#year').text(setup.year)
 		})
 	}
 	rangeSlider()

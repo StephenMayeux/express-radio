@@ -109,7 +109,7 @@ router.post('/discover', function(req, res, next) {
 				/*res.send({
 					album_info: album_info
 				})*/
-				res.render('users',{album_info})
+				res.render('users',album_info)
 			}
 
 			/*res.send(album_info)*/
